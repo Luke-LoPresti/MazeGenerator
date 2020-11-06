@@ -1,9 +1,12 @@
 # Maze Generator
-A simple maze generator made with C++ and SFML.  
+A simple maze generator made with C++ and SFML using backtracking.  
 Controls  
 'S' Key - Start the maze generation  
 'P' Key - Pause the maze generation  
-'R' Key - Reset the grid
+'R' Key - Reset the grid  
+
+The current active cell is highlighted green when it is a new cell being processed.  
+When the generator is backtracking the cell is highlighted purple.  
 
 ![maze](Screenshots/maze.gif)  
    
